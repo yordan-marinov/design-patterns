@@ -198,4 +198,5 @@ README.html
 .exercism
 
 *.xml
+misc.*
 
