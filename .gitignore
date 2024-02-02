@@ -197,5 +197,5 @@ README.html
 .idea
 .exercism
 
-misc.xml
+*.xml
 
