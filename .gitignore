@@ -196,7 +196,3 @@ README.html
 *.iml
 .idea
 .exercism
-
-*.xml
-misc.*
-
