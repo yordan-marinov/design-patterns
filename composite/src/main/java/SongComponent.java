@@ -29,7 +29,7 @@ public abstract class SongComponent {
         throw new UnsupportedOperationException();
     }
 
-    public void displaySongInfo() {
+    public void displayComponentInfo() {
         throw new UnsupportedOperationException();
     }
 }
