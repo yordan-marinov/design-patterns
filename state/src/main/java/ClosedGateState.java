@@ -1,7 +1,7 @@
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class ClosedGateState implements CarParGateState {
+public class ClosedGateState implements CarParkGateState {
 
     private final CarPark carPark;
 

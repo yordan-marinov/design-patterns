@@ -7,7 +7,7 @@ public class CarPark {
     private final ClosedGateState closedGateState;
     private final ProcessingPinGateState processingPinGateState;
     @Setter
-    private CarParGateState gateState;
+    private CarParkGateState gateState;
 
     public CarPark() {
         this.openedGateState = new OpenedGateState(this);

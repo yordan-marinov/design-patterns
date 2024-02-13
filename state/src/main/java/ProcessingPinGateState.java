@@ -1,7 +1,7 @@
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class ProcessingPinGateState implements CarParGateState {
+public class ProcessingPinGateState implements CarParkGateState {
 
     private final CarPark carPark;
 
