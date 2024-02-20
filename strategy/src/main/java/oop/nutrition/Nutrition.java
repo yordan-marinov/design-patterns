@@ -1,4 +1,4 @@
-package nutrition;
+package oop.nutrition;
 
 public interface Nutrition {
     void eat();

@@ -1,4 +1,4 @@
-package nutrition;
+package oop.nutrition;
 
 public class Predator implements Nutrition {
     @Override

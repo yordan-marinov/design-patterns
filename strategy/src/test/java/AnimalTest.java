@@ -1,9 +1,9 @@
-import animal.Animal;
-import animal.Bird;
-import animal.Cat;
-import nutrition.Nutrition;
-import nutrition.Predator;
-import nutrition.Prey;
+import oop.animal.Animal;
+import oop.animal.Bird;
+import oop.animal.Cat;
+import oop.nutrition.Nutrition;
+import oop.nutrition.Predator;
+import oop.nutrition.Prey;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

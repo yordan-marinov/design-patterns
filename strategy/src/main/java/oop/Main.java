@@ -1,8 +1,10 @@
-import animal.Animal;
-import animal.Cat;
-import nutrition.Nutrition;
-import nutrition.Predator;
-import nutrition.Prey;
+package oop;
+
+import oop.animal.Animal;
+import oop.animal.Cat;
+import oop.nutrition.Nutrition;
+import oop.nutrition.Predator;
+import oop.nutrition.Prey;
 
 public class Main {
     public static void main(String[] args) {

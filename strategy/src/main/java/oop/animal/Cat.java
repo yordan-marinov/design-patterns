@@ -1,6 +1,6 @@
-package animal;
+package oop.animal;
 
-import nutrition.Nutrition;
+import oop.nutrition.Nutrition;
 
 public class Cat extends Animal{
     public Cat(String name, String kind, Nutrition nutrition) {
