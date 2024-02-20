@@ -1,9 +1,9 @@
-package animal;
+package oop.animal;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
-import nutrition.Nutrition;
+import oop.nutrition.Nutrition;
 
 @ToString
 @Getter
