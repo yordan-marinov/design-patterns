@@ -1,14 +1,16 @@
 package func;
 
+import java.util.function.Function;
 import java.util.function.UnaryOperator;
 import java.util.stream.IntStream;
 
 public class Basket {
 
+    private static final Function<Integer, Integer> FUNCTION = i -> (int) (i * (1 - 0.9));
     private final IntStream items = IntStream.range(1, 5);
 
     public int total(UnaryOperator<Integer> offer) {
-        return offer.apply(this.items.sum());
+        return offer.andThen(i -> (int) (i * (1 - 0.5))).apply(this.items.sum());
     }
 
 

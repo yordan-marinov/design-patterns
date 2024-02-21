@@ -4,7 +4,7 @@ abstract public class VehicleFactory {
 
     public Vehicle getVehicle() {
         Vehicle vehicle = makeVehicle();
-        vehicle.pain();
+        vehicle.paint();
         vehicle.deliver();
         return vehicle;
     }

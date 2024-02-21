@@ -6,6 +6,6 @@ public class Main {
 
 
         final Basket basket = new Basket();
-        System.out.println(basket.total(Offers.BLACK_FRIDAY.getOffer()));
+        System.out.println(basket.total(Offers.WEEKENDS.getOffer()));
     }
 }

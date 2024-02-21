@@ -12,7 +12,7 @@ abstract public class Vehicle {
         this.price = price;
     }
 
-    public void pain() {
+    public void paint() {
         System.out.println(
                 String.format("Painting the vehicle type: %s, fuel: %s, price: $%S",
                         this.type,
