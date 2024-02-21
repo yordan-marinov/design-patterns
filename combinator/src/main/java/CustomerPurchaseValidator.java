@@ -4,7 +4,7 @@ import java.util.function.Function;
 public interface CustomerPurchaseValidator extends Function<Customer, CustomerPurchaseValidator.ValidationResultEnum> {
 
     static CustomerPurchaseValidator isNameValid() {
-        return n -> !n.name().isBlank() ? ValidationResultEnum.VALID : ValidationResultEnum.NAME_NOT_VALID;
+        return c -> !c.name().isBlank() ? ValidationResultEnum.VALID : ValidationResultEnum.NAME_NOT_VALID;
     }
 
     static CustomerPurchaseValidator isPhoneValid() {
